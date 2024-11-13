@@ -1,0 +1,134 @@
+body{
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 15px;
+    background-color: rgba(255, 217, 0, 1);
+    
+}
+
+#principal{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 50vw;
+    margin-top: 5px;
+    margin-left: -15px;
+    
+}
+
+#info{
+    text-align: center;
+    display: grid;
+    padding: 10px 20px 32px 30px;
+    height: 400px;
+    color: white;
+    background: rgba(81, 73, 136, 1);
+    margin-top: -5px ;
+    
+}
+
+#titulo{
+    margin: 5px;
+    font-size: 50px;
+    color: #FFD900;
+    
+}
+
+#data{
+    margin-top: 20px;
+    margin-bottom: -7px;
+    font-size: 20px;
+}
+
+#conteudo{
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 10px;
+    
+}
+
+#timer{
+    display: grid;
+    grid-auto-flow: column;
+    background-color: white;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.timerItem{
+    color: #514988;
+    font-size: 38px;
+    margin-top: 5px;
+    margin-bottom: 5px;;
+}
+#subtitulo{
+    background-color: white;
+    color: rgba(227, 56, 129, 1);
+    margin-top: -20px;
+    margin-bottom: -10px;
+    margin-right: -15px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    font-size: 22px;
+    
+
+}
+#clip{
+    width: 90%;
+    margin-right: -15px;
+    margin-bottom: -15px;
+    margin-top: -15px;
+    background-color: white;
+    height: 10px;
+    margin-left: 10px;
+
+}
+#venda{
+    display: grid;
+   
+    background-color: white;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-bottom: 150px;
+}
+#subtitulo-ing{
+    color: #FFD900;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+
+button{
+    background-color: #514988;
+    border-radius: 20px;
+    color: white;
+    margin: 30px;
+    width: 300px;
+    height: 70px;
+    font-size: 30px;
+    margin-top: 10rem;
+}
+
+button:hover{
+    cursor: pointer;
+    color: #FFD900;;
+
+
+}
+
+#ingresso{
+    display: grid;
+    grid-auto-flow: column;
+    
+}
+#botao-compra{
+ 
+    margin-left: 900px;
+    margin-top: -250px;
+   
+   
+}
